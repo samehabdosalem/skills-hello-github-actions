@@ -1,6 +1,10 @@
-name: Post welcome comment
+name: Hamada
 on:
   pull_request:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  build:
+    name: Hamada
+    runs-on: ubuntu-latest
